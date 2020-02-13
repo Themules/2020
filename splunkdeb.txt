@@ -1,0 +1,4 @@
+wget -O splunkforwarder-8.0.2-a7f645ddaf91-linux-2.6-amd64.deb 'https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86_64&platform=linux&version=8.0.2&product=universalforwarder&filename=splunkforwarder-8.0.2-a7f645ddaf91-linux-2.6-amd64.deb&wget=true'
+
+
+https://geek-university.com/splunk/configure-a-splunk-forwarder-on-linux/
