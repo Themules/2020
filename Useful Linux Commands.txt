@@ -1,0 +1,42 @@
+dns check
+etc/resolv.conf
+
+version check
+$ rpm -q centos-release
+
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Debian specific (but may work for other linux distros):
+
+#To check ip address on interface on local system
+ip addr
+
+#This checks what DNS i am using to see if my changes are in effect
+nm-tool | grep DNS
+
+#list port names (basically, what "labels" are attached to the port numbers):
+cat /etc/services
+
+#check open ports:
+sudo netstat -tulpn | grep LISTEN
+
+#how to uninstall a program
+sudo apt-get --purge remove <package-name>
+
+#How to add a user
+sudo adduser sammy
+
+#how switch users in the terminal
+su - sammy
+
+#Update repository list:
+sudo apt-get update
+
+#Upgrade all packages on system with security updates:
+sudo apt-get upgrade
+
+#How to install program from repository
+sudo apt-get install <package-name>
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
