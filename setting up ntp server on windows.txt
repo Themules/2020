@@ -1,0 +1,4 @@
+NTP Server: How to set up
+-	services.msc in Start Search and hit Enter. In Services Manager, navigate to Windows Time service and double-click on it. Check and see if it is Started and set on Automatic. If not, change the startup type to Automatic and click on Apply/OK.
+-	net start w32time
+-	w32tm /config /syncfromflags:manual /manualpeerlist:"0.pool.ntp.org 1.pool.ntp.org 2.pool.ntp.org 3.pool.ntp.org" /reliable:yes /update
