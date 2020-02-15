@@ -1,4 +1,5 @@
-Splunk kernel 2.6.32-642.15.1.el6.x86_64
+Splunk 
+kernel 2.6.32-642.15.1.el6.x86_64
 centos-release-6-4.e16.centos.10.x86_64
 Phantom kernel 3.10.0-86z.14.4.e17.x86_64
 centos-release-7-5.1804.4.e17.centos.x86_64
@@ -33,12 +34,3 @@ Windows server 2008R2 Version 6.1 (Build7600)
 Firewall – Palo Alto
 version 8.0.0.0
 version 8.0.0.0
-
-
-
-
-Cent 
-centos-release-6-0.e16.centos.5.x86_64
-
-Fedora
-fedora-release-21-2.noarch
